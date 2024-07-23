@@ -21,6 +21,7 @@ namespace Facade_Pattern_EndPoint.Pages
         public void OnGet()
         {
             _facadePaternServices.LoginUserServices.Exequte();
+            _facadePaternServices.RegisterUserService.Exequt();
         }
     }
 }
